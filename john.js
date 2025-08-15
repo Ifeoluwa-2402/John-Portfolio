@@ -1,6 +1,7 @@
 const toggle = document.getElementById('toggle');
 const navLink = document.getElementById('links');
-
+const name = document.getElementById('name');
+const email = document.getElementById('email');
 toggle.addEventListener('click', () => {
     navLink.classList.toggle('active');
 
@@ -17,4 +18,6 @@ window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
     }
+    name.value = "";
+    email.value = "";
 }
