@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Portfolio</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" 
+    href="https://fonts.googleapis.com">
+    <link rel="preconnect" 
+    href="https://fonts.gstatic.com" crossorigin>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-MJ4YlRZt7FgBrZg4EB+M4I0JHRNx+zZhDU7xv6Qv6Y7bYRvD62tAaQjKZuTMIuU1evpR1eOZc+Nw4gJkXkbMBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <main>
+        <header>
+            <nav>
+                <ul class="nav-links" id="nav-links">
+                    <p class="logo">John_Miracle</p>
+                    <button class="toggle-button toggle" id="toggle">☰</button>
+
+                    <div class="links toggle" id="links"> 
+                        <li><a href="#section-1" class="nav-link">Home</a></li>
+                        <li><a href="#section-2" class="nav-link">Work</a></li>
+                        <li><a href="projects.html" class="nav-link">Projects</a></li>
+                        <li><a href="#footer" class="nav-link">Contact</a></li>
+                    </div>
+                </ul>   
+            </nav>
+        
+
+        <section class="section-1" id="section-1">
+            <div class="intro">
+                <h1>Hi! <span class="wave-emoji">&#128075;</span></i></h1>
+                <h1>I'm Nwabike John Miracle, a freelance copywriter with 
+                    a knack for crafting persuasive, high-converting 
+                    content that connects brands with people.</h1>
+            </div>
+            <img src="images/IMG-20250610-WA0004_2.jpg" alt="" class="intro-img">
+        </section>
+        </header>
+
+        <section class="section-2" id="section-2">
+            <h1>What I do</h1>
+            
+            <ul class="list">
+                <li>Landing Page Copy</li>
+                <li>Email campaigns</li>
+                <li>E-commerce product descriptions</li>
+                <li>B2B blog articles and case studies</li>
+                <li>Social media content</li>
+                <li>Website copy</li>  
+                <li>SEO-optimized content</li>
+                <li>Brand storytelling</li>
+                <li>Ad copy</li>
+                <li>Content strategy</li>
+                <li>Content marketing</li>
+                <li>Content optimization</li>
+                <li>Content planning</li>
+            </ul>
+        </section>
+<hr>
+
+        <section class="sction-3">
+
+        </section>
+        
+        <!-- ----------------------------------------------SECCTION-4---------------------------------- -->
+        <section class="section-4">
+            <div class="hire-me">
+                <h1>Let's Create.</h1>
+                <button class onclick="document.getElementById('id01').style.display= 'block' "><i class="bi bi-arrow-right" id="arrow"></i> Get in touch</button>
+                    
+<!-- -----------------------------GET IN TOUCH FORM----------------      -->
+                <div id="id01" class="modal">
+                <form action="" class="modal-content animate" method="post">
+                    <div class="container">
+                        <label class="form-name" for="name"><b>Name:</b></label>
+                        <input  class="form-text" id="name" type="text" placeholder="Enter your name" name="name" required>
+                        <label class="form-name" for="email"><b>Email:</b></label>   
+                        <input type="email" class="form-email" id="email" placeholder="Enter your email" name="email" required>
+                        <button class="form-btn" type="submit">Subscribe</button>
+                    </div>
+                    
+                    <div class="container" >
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                    </div>
+                </form>
+            </div>
+            </div>
+            
+            <div class="connect">
+                <h3><a href="#">Twitter</a></h3>
+                <h3><a href="#">LinkedIn</a></h3>  
+                <h3><a href="#">Instagram</a></h3>
+                <h3><a href="#">Facebook</a></h3>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="chat-us">
+                <form action="mailto:ifeoluwaolugbode8@gmail.com" method="post">
+                    <div class="email">
+                        <label for="email">Enter your email:</label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email here...">
+                    </div>
+                    <div class="textarea">
+                        <label for="text">You've got anything to say?</label>
+                        <textarea name="textarea" id="text" rows="5" placeholder="Type here...."></textarea>
+                    </div>
+                    <button type="submit"><a href="mailto:">Submit</a></button>
+                </form>
+                <div class="social-links">
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-github"></i></a>
+                </div>
+            </div>
+
+            <div class="contact">
+                <p>Contact us via: </p>
+                <div class="contact-details">
+                    <div class="phone"><i class="bi bi-telephone"></i>: <span>+234 811 669 7016, +234 813 707 2509</span></div>
+                    <div class="contact-email"><i class="bi bi-envelope"></i>: <span>ifeoluwaolugbode8@gmail.com</span></div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+
+
+
+
+
+    <script src="john.js"></script>
+</body>
+</html>
